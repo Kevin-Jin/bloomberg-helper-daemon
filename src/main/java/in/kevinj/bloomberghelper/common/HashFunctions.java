@@ -1,4 +1,4 @@
-package in.kevinj.bloomberghelper.daemon.model;
+package in.kevinj.bloomberghelper.common;
 
 import java.nio.charset.Charset;
 import java.security.MessageDigest;

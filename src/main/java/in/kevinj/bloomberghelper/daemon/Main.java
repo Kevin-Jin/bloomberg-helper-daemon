@@ -27,6 +27,7 @@ public class Main {
 	public static ResourceConfig create() {
 		ResourceConfig resources = new ResourceConfig();
 		resources.register(MultiPartFeature.class);
+		resources.register(PartialMultiPartWriter.class);
 		resources.packages(BloombergHelper.class.getPackage().toString());
 		return resources;
 	}

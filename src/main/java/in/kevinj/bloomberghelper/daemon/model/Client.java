@@ -1,5 +1,6 @@
 package in.kevinj.bloomberghelper.daemon.model;
 
+import in.kevinj.bloomberghelper.common.HashFunctions;
 import in.kevinj.bloomberghelper.common.Role;
 
 import java.util.EnumSet;

@@ -23,7 +23,8 @@ dependencies {
     compile "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:+"
     compile "org.glassfish.jersey.containers:jersey-container-grizzly2-http:+"
     compile "org.glassfish.jersey.media:jersey-media-multipart:+"
-    compile "commons-io:commons-io:2.4"
+    compile "commons-io:commons-io:+"
+    compile "commons-codec:commons-codec:+"
 }
 
 test {
